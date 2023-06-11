@@ -1,10 +1,10 @@
 {
   "name": "ingsw23",
   "version": "1.0.0",
-  "main": "operacion.js",
+  "main": "suma.js",
   "scripts": {
     "test": "jest",
-    "build": "node operacion",
+    "build": "node suma",
     "start": "node server.js"
   },
   "author": "",
