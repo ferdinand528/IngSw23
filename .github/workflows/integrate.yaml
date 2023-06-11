@@ -8,7 +8,7 @@ on:
   
 
 jobs:
-  build: 
+  build: ci_to_master
     runs-on: ubuntu-latest
 
     strategy:
