@@ -3,16 +3,16 @@ const express = require ('express')
 
 const app = express()
 
+const sumar = require('./suma')
+
 const port = 3001
 
 app.get('/', (req, res)=> {
-    res.send({
-        data: 'Hola Mundo'
-    })
-
-})
+    const resultado = sumar(a, b);
+    res.send(`El resultado de la suma es: ${resultado}`);
+    });
 
 app.listen(port, () =>{
-    console.log('La aplicacion esta en linea!');
+    console.log('Servidor Express en funcionamiento en el puerto 3001');
 })
 
