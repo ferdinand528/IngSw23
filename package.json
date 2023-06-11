@@ -1,23 +1,22 @@
 {
-    "name": "github-actions",
-    "version": "1.0.0",
-    "description": "",
-    "main": "suma.js",
-    "scripts": {
-      "test": "jest",
-      "build": "node suma"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/marcosrivasr/github-actions-tutorial.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/marcosrivasr/github-actions-tutorial/issues"
-    },
-    "homepage": "https://github.com/marcosrivasr/github-actions-tutorial#readme",
-    "devDependencies": {
-      "jest": "^25.1.0"
-    }
+  "name": "ingsw23",
+  "version": "1.0.0",
+  "main": "suma.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdinand528/IngSw23.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ferdinand528/IngSw23/issues"
+  },
+  "homepage": "https://github.com/ferdinand528/IngSw23#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
   }
+}
