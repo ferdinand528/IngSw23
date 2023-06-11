@@ -1,10 +1,11 @@
 {
   "name": "ingsw23",
   "version": "1.0.0",
-  "main": "suma.js",
+  "main": "operacion.js",
   "scripts": {
-    "test": "test",
-    "build": "node suma"
+    "test": "jest",
+    "build": "node operacion",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,8 +17,9 @@
     "url": "https://github.com/ferdinand528/IngSw23/issues"
   },
   "homepage": "https://github.com/ferdinand528/IngSw23#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
