@@ -1,0 +1,23 @@
+{
+    "name": "github-actions",
+    "version": "1.0.0",
+    "description": "",
+    "main": "suma.js",
+    "scripts": {
+      "test": "jest",
+      "build": "node suma"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marcosrivasr/github-actions-tutorial.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/marcosrivasr/github-actions-tutorial/issues"
+    },
+    "homepage": "https://github.com/marcosrivasr/github-actions-tutorial#readme",
+    "devDependencies": {
+      "jest": "^25.1.0"
+    }
+  }
