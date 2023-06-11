@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "suma.js",
   "scripts": {
-    "test": "jest"
+    "test": "test",
+    "build": "node suma"
   },
   "author": "",
   "license": "ISC",
