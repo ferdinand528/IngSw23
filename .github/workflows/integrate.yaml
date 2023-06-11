@@ -25,7 +25,7 @@ jobs:
       - run: npm test
       - run: npm run build
       - name: Start server
-        run: node server.js
+        run: npm stard
 
 
       
