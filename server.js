@@ -8,7 +8,7 @@ const sumar = require('./suma')
 const port = 3001
 
 app.get('/', (req, res)=> {
-    const resultado = sumar(a, b);
+    const resultado = sumar(2,5);
     res.send(`El resultado de la suma es: ${resultado}`);
     });
 
