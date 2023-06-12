@@ -14,5 +14,6 @@ app.get('/', (req, res)=> {
 
 app.listen(port, () =>{
     console.log('Servidor Express en funcionamiento en el puerto 3001');
+    
 })
 
