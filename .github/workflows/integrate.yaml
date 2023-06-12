@@ -19,5 +19,18 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
+<<<<<<< HEAD
           branch: gh-pages
           folder: dist
+=======
+          node-version: v18.16.0
+          cache: 'npm'
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Start server
+        run: npm start
+
+
+      
+>>>>>>> a9ee9dc32bae7b6c3c1dc9ffdd293c5e1ef6b7b4
