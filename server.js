@@ -10,6 +10,7 @@ const port = 3001
 app.get('/', (req, res)=> {
     const resultado = sumar(2,5);
     res.send(`El resultado de la suma es: ${resultado}`);
+    console.log('Esto funciona parece');
     });
 
 app.listen(port, () =>{
